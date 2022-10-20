@@ -45,11 +45,11 @@ def criar_agendamento():
     return agend
 
 def buscar_agendamento1(lista):
-        print('digite o dia do agendamento')
+        print('Digite o dia do agendamento')
         dia = int(input())
-        print('digite o mês')
+        print('Digite o mês')
         mes = int(input())
-        print('digite a hora')
+        print('Digite a hora')
         hora = int(input())
         for a in lista:
             if (a.dia == dia and a.mes == mes and a.hora == hora):
@@ -58,7 +58,7 @@ def buscar_agendamento1(lista):
 
 def buscar_agendamento(lista):
 
-        print('digite o nome do paciente')
+        print('Digite o nome do paciente')
         nome = input()
         for a in lista:
             if (a.nome == nome):
