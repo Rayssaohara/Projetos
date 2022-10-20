@@ -1,5 +1,5 @@
 
-
+print("Olá)
 a = 3
 def tabuada(a):
     auxiliar = 0

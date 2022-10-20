@@ -22,7 +22,7 @@ class calculadora:
         return self.a / self.b
 
 cal = calculadora(1,1)
-print('digito o primeiro numero')
+print('Digito o primeiro numero')
 cal.a = int(input())
 lista_cal = []
 ope = 0
